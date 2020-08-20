@@ -1,0 +1,150 @@
+@charset "utf-8";
+
+/*----------共通----------*/
+body{
+    margin: 0;
+    letter-spacing: 3px;
+}
+ul{
+    list-style: none;
+}
+.container{
+    text-align: center;
+    margin:0 auto 100px;
+    width:100%;
+}
+.h-container{
+    text-align:center;
+    margin: 0 auto;
+    width:100%;
+}
+@media(max-width:768px){
+    .container{
+        width:100%;
+    }
+}
+.mincho{
+    font-family: 游明朝;
+}
+.btn{
+    text-decoration: none;
+    color:#000;
+}
+.btn:visited{
+    color:#000;
+}
+.btn:hover{
+    background:#666;
+    border-radius: 3px;
+    color:#fff;
+}
+
+h3{
+    font-size:30px;
+    display: inline-block;
+    border-bottom:2px solid #555;
+}
+
+/*----------header----------*/
+header ul{
+    display: flex;
+    justify-content: center;
+    padding:0;
+}
+header a{
+    padding:0 5px;
+    letter-spacing: 2px;
+    display: inline-block;
+    line-height:2.5em;
+}
+@media (max-width:768px){
+    header img{
+        width:100%;
+        max-width:450px;
+    }
+}
+/*----------top----------*/
+.top-wrapper{
+    background:url(img/topphoto.jpg) center center;
+    background-size:cover;
+    height:600px;
+    position: relative;
+    text-align: center;
+}
+.top-wrapper h2{
+    background:rgba(0, 0, 0, 0.5);
+    text-shadow: 1px 1px 1px #111;
+    color:#fff;
+    font-weight:normal;
+    line-height:2em;
+    letter-spacing: 1em;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -60%);
+    width:100%;
+}
+@media (max-width:768px){
+    .top-wrapper h2{
+        letter-spacing: 0.2em;
+    }
+}
+/*----------about----------*/
+#about{
+    margin:100px 0 100px;
+
+}
+/*----------menu----------*/
+.item-left{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #ddd;
+}
+.item-right{
+    display: flex;
+    flex-direction: row-reverse;
+    border-bottom: 1px solid #ddd;
+}
+#menu img{
+    width:250px;
+}
+.info{
+    text-align:left;
+}
+.place{
+    text-align:right;
+}
+.text{
+    margin:50px 60px 0;
+}
+.items h4{
+    text-align:left;
+    font-size:24px;
+}
+#menu{
+    
+}
+
+@media(max-width:768px){
+    .item-left{
+        display: flex;
+        flex-direction: column;
+        margin-bottom:20px;
+    }
+    .item-right{
+        display: flex;
+        flex-direction: column;
+        margin-bottom:100px;
+    }
+    #menu h4{
+        margin-top:0;
+        letter-spacing: 1px;
+        text-align: center;
+    }
+    .place{
+        margin-bottom:30px;
+    }
+    #menu img{
+        margin:0 auto;
+    }
+}
