@@ -159,7 +159,7 @@ header a{
 }
 @media(max-width:768px){
     #access{
-
+        flex-direction: column;
     }
 }
 .kihon{
@@ -170,6 +170,7 @@ header a{
 .kihon p{
     border-bottom:1px solid #ddd;
     margin-bottom:15px;
+    margin-left:20px;
     flex:1;
 }
 .map{
