@@ -152,3 +152,51 @@ header a{
         margin:0 auto;
     }
 }
+/*----------access----------*/
+#access{
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:768px){
+    #access{
+
+    }
+}
+.kihon{
+    text-align: left;
+    max-width: 400px;
+    flex:1;
+}
+.kihon p{
+    border-bottom:1px solid #ddd;
+    margin-bottom:15px;
+    flex:1;
+}
+.map{
+
+}
+
+/*----------contact----------*/
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+input{
+    border:1px solid #555;
+    max-width:500px;
+    margin:0 auto 15px;
+}
+textarea{
+    border: 1px solid #555;
+    max-width:500px;
+    margin:0 auto 15px;
+}
+.submit{
+    background:#999;
+    color:#fff;
+    width:50px;
+    margin:15px auto 0;
+}
