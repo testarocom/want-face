@@ -165,7 +165,7 @@ header a{
 .kihon{
     text-align: left;
     max-width: 400px;
-    flex:1;
+    flex:2;
 }
 .kihon p{
     border-bottom:1px solid #ddd;
